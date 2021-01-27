@@ -1,0 +1,396 @@
+
+/* MADE BY GABRIEL STEVAUX :) */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+.paletadecores {
+    color: #F2EDA0; 
+
+    color: #F2BA52; /*texto 2 */
+
+    color: #D9B79A; /*botao */
+
+    color: #EEEEEE; /*secao 1 e 3 */
+
+    color:#7F879D; /*titulo e texto */
+}
+
+body {
+    background: #eeeeee;
+    font-family: 'Raleway', sans-serif;
+}
+
+.span {
+    display: block;
+}
+
+.secaoLista {
+    margin: 30px 0px;
+}
+
+.secaoItens {
+    list-style: square;
+    color: #8da2dd;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#secaoI {
+    background: #F2EDA0;
+}
+
+/*  */
+
+/* 
+    SEÇÃO 1
+*/
+
+#secao1 {
+    background: url(../img/bgPc1.png);
+    background-position: center;
+    background-size: cover;
+    overflow: auto;
+}
+
+.container {
+    width: 60%;
+    float: right;
+    padding: 7% 10px 0px 10px;
+}
+
+.secaoP-h1 {    
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #7F879D;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+.secaoP-p {
+    color:#8691af;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.secaoP-pCadastrar {
+    color: #e7b04b;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 700;}
+
+.secao-button {
+    background: #D9B79A;
+    border: none;
+    color: white;
+    padding: 10px 60px;
+    border-radius: 5px;
+    margin-bottom: 15%;
+    font-size: 25px;
+    cursor: pointer;
+}
+    .secao-button:hover {
+        background: #b49173;
+    }
+
+#botaoForm {
+    margin-bottom: 5%;
+}
+
+#input {
+    background: #75b9aa;
+    border: none;
+    margin-bottom: 5%;
+    padding: 10px 40px;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 20px;
+    box-shadow: 4px 4px 2px #85a8a1;
+    text-align: center;
+    display: block;
+}
+
+/*  */
+
+/* 
+    SEÇÃO 2
+*/
+
+#secaoI {
+    overflow: auto;
+    padding-left: 30px;
+    background: #F2EDA0;
+}
+
+.container2 {
+    width: 60%;
+    float: left;
+    padding: 50px 10px 40px 10px;
+}
+
+.secaoI-h1 {    
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #eeb13f;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.secaoI-p {
+    color: #c49134;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.secaoI4-p {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/*  */
+
+/* 
+    SEÇÃO 3
+*/
+
+#secao3 {
+    overflow: auto;
+    padding-left: 40px;
+    background: url(../img/terceiroBloco.png);
+    background-size: 100%;
+    background-position: center;
+}
+
+.container3 {
+    width: 60%;
+    float: left;
+    padding: 5% 10px 0px 10px;
+}
+
+/* 
+    SEÇÃO 4
+*/
+
+#secao4 {
+    background: url(../img/quartoBloco.png);
+    background-position: center;
+    background-size: cover;
+    overflow: auto;
+}
+
+.container4 {
+    width: 60%;
+    float: right;
+    padding: 20px 10px 0px 10px;
+}
+
+/*  */
+
+.secao-button2 {
+    background: #c1dd8d;
+    border: none;
+    color: white;
+    padding: 10px 60px;
+    border-radius: 5px;
+    margin-bottom: 15%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #7cc7b0;
+    color: white;
+}
+
+.footer-copyright {
+    font-size: 100%;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 320px) {
+    ::-webkit-scrollbar {
+        width: 0px;
+    }
+
+    #secao1 {
+        background: url(../img/bgBloco1.png);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .container {
+        float: none;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .secaoP-h1 {
+        font-size: 17px;
+    }
+
+    .secaoP-p {
+        font-size: 15px;
+    }
+
+    .secaoP-pCadastrar {
+        font-size: 15px;
+    }
+
+    .secao-button {
+        font-size: 15px;
+    }
+
+    #input {
+        font-size: 15px;
+    }
+
+    .container2 {
+        padding: 20px 0px;
+        clear: left;
+        width: 90%;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .secaoI-h1 {
+        font-size: 17px;
+    }
+
+    .secaoI-p {
+        font-size: 15px;
+    }
+
+    #secao3 {
+        background: #eeeeee;
+        padding: 20px 10px 20px 10px;
+    }
+
+    .container3 {
+        float: none;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .secaoItens {
+        font-size: 15px;
+        margin-bottom: -5px;
+    }
+
+    #mobile3-h1 {
+        font-size: 19px;
+    }
+
+    #secao4 {
+        background: url(../img/bgMb4.png);
+        background-position: center;
+        padding: 20px 10px 20px 10px;
+    }
+
+    .container4 {
+        float: none;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    ::-webkit-scrollbar {
+        width: 0px;
+    }
+
+    #secao1 {
+        background: url(../img/bgBloco1.png);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    #secao3 {
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    ::-webkit-scrollbar {
+        width: 0px;
+    }
+
+    #secao1 {
+        background: url(../img/bgBloco1.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        float: none;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .secaoP-h1 {
+        font-size: 19px;
+    }
+
+    #secao2 {
+        padding: 20px 10px 20px 10px;
+    }
+
+    .container2 {
+        float: none;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #secao3 {
+        padding: 20px 10px 20px 10px;
+    }
+
+    .container3 {
+        float: none;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #mobile3-h1 {
+        font-size: 25px;
+    }
+
+    #secao4 {
+        background-size: cover;
+    }
+
+    .container4 {
+        float: none;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .button {
+        text-align: center;
+    }
+}
+
+section#secao1, section#secao2, section#secao3{
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    position: relative;
+}
+
+/* MADE BY GABRIEL STEVAUX :) */
